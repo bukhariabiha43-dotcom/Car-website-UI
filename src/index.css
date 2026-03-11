@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'NunitoFont';
+    src: url('./assets/Fonts/nunito-v32-latin-regular.woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'NunitoFont';
+    src: url('./assets/Fonts/nunito-v32-latin-700.woff2');
+    font-style: bold;
+    font-weight: 700;
+}
+
+@theme {
+    --font-nunitofont: 'NunitoFont';
+}
